@@ -12,7 +12,7 @@ const run = () => {
             console.log('✅', test.name)
         } catch (err) {
             console.log('❌', test.name)
-			console.log(e.stack)
+			console.log(err.stack)
         }
     })
 }
